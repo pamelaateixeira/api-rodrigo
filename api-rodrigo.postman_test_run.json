@@ -1,0 +1,242 @@
+{
+	"id": "44fba41d-3deb-4940-b771-a34e0810a7e0",
+	"name": "api-rodrigo",
+	"timestamp": "2025-11-21T04:07:08.492Z",
+	"collection_id": "50247551-9c2fa715-d3bb-4fdc-9785-db6fcc12ff8e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-11-21T04:07:06.043Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bf614e9e-0aaa-4a71-9da3-41b3ab2805da",
+			"name": "http://localhost:3000/registrar",
+			"url": "http://localhost:3000/registrar",
+			"time": 8,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7d561fb3-e3b2-41ad-94c5-2a70b1585f29",
+			"name": "http://localhost:3000/login",
+			"url": "http://localhost:3000/login",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "39b4edb1-9a53-46d4-9272-1b61e922e2a2",
+			"name": "http://localhost:3000/produtos",
+			"url": "http://localhost:3000/produtos",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "302a1919-a249-48c9-b09a-c2781367e3cf",
+			"name": "http://localhost:3000/produto?id=1",
+			"url": "http://localhost:3000/produto?id=1",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bf9ccf1d-2182-43b1-be08-cca8aeef8e3f",
+			"name": "http://localhost:3000/produto/cadastrar",
+			"url": "http://localhost:3000/produto/cadastrar",
+			"time": 2,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3d626bd6-d9c8-4da6-adc8-73c63632c8c3",
+			"name": "http://localhost:3000/livros",
+			"url": "http://localhost:3000/livros",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2e0e80ac-2278-4df8-8b54-efb7f3a43dde",
+			"name": "http://localhost:3000/livro?id=1",
+			"url": "http://localhost:3000/livro?id=1",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ad00f5d8-c213-4f06-9055-17b06e3aa93f",
+			"name": "http://localhost:3000/livro/cadastrar",
+			"url": "http://localhost:3000/livro/cadastrar",
+			"time": 3,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b9be0a8d-939a-491a-9293-d4c4c1e735c4",
+			"name": "http://localhost:3000/classificar",
+			"url": "http://localhost:3000/classificar",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b232e227-e5d4-431e-959e-417825561fc1",
+			"name": "http://localhost:3000/detectar",
+			"url": "http://localhost:3000/detectar",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 38,
+	"collection": {
+		"requests": [
+			{
+				"id": "bf614e9e-0aaa-4a71-9da3-41b3ab2805da",
+				"method": "POST"
+			},
+			{
+				"id": "7d561fb3-e3b2-41ad-94c5-2a70b1585f29",
+				"method": "POST"
+			},
+			{
+				"id": "39b4edb1-9a53-46d4-9272-1b61e922e2a2",
+				"method": "GET"
+			},
+			{
+				"id": "302a1919-a249-48c9-b09a-c2781367e3cf",
+				"method": "GET"
+			},
+			{
+				"id": "bf9ccf1d-2182-43b1-be08-cca8aeef8e3f",
+				"method": "POST"
+			},
+			{
+				"id": "3d626bd6-d9c8-4da6-adc8-73c63632c8c3",
+				"method": "GET"
+			},
+			{
+				"id": "2e0e80ac-2278-4df8-8b54-efb7f3a43dde",
+				"method": "GET"
+			},
+			{
+				"id": "ad00f5d8-c213-4f06-9055-17b06e3aa93f",
+				"method": "POST"
+			},
+			{
+				"id": "b9be0a8d-939a-491a-9293-d4c4c1e735c4",
+				"method": "POST"
+			},
+			{
+				"id": "b232e227-e5d4-431e-959e-417825561fc1",
+				"method": "POST"
+			}
+		]
+	}
+}
